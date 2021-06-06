@@ -13,3 +13,10 @@ docker build -t demo_app:1 .
 ```sh
 docker run -p 80:80 demo_app:1
 ```
+
+## Tag & Push
+
+```sh
+docker image tag demo_app:1 vagifmammadaliyev/demo_app:stable
+docker push vagifmammadaliyev/demo_app:stable
+```
